@@ -1,9 +1,11 @@
-🎮 AlgoVerse — Web3 Gaming Platform
+## 🎮 AlgoVerse — Web3 Gaming Platform
 
 AlgoVerse is a decentralized gaming platform built on the Algorand blockchain.
 It brings together multiple blockchain-based games where players can play, earn, and truly own their in-game assets through secure smart contracts and wallet integration.
 
-🚀 Overview
+---
+
+## 🚀 Overview
 
 Traditional gaming platforms often lack transparency and true ownership. AlgoVerse changes that by using Algorand’s high-speed, low-fee blockchain to deliver a new kind of gaming experience:
 
@@ -13,7 +15,9 @@ All in-game assets are NFT-based and owned by the player.
 
 Transactions are secure, transparent, and verifiable on-chain.
 
-✨ Key Features
+---
+
+## ✨ Key Features
 
 🎯 Multiple Web3 Games — Enjoy a range of blockchain-powered mini-games.
 
@@ -27,53 +31,64 @@ Transactions are secure, transparent, and verifiable on-chain.
 
 🌐 Web-based Interface — Built with React + Tailwind for a clean and responsive UI.
 
-🛠️ Tech Stack
-Layer	Technologies
-Frontend	React, Vite, Tailwind CSS
+---
+
+## 🛠️ Tech Stack
+Layer	      Technologies
+Frontend	  React, Vite, Tailwind CSS
 Blockchain	Algorand, PyTeal / Beaker Smart Contracts
-Wallet	Pera Wallet Integration
-Backend (if used)	Firebase / Node.js
-Deployment	Vercel / Netlify / GitHub Pages
-⚙️ Setup Instructions
+Wallet	    Pera Wallet Integration
 
-Clone the repository
+---
 
-git clone https://github.com/your-username/AlgoVerse.git
-cd AlgoVerse
+## ⚙️ Setup Instructions
 
+1. Clone the repository
 
-Install dependencies
-
-npm install
+   git clone https://github.com/your-username/AlgoVerse.git
+   cd AlgoVerse
 
 
-Run locally
+2. Install dependencies
 
-npm run dev
+   npm install
 
 
-Connect Wallet
+3. Run locally
 
-Open the app in your browser.
+   npm run dev
 
-Connect your Pera Wallet.
 
-Start playing and earning!
+4. Connect Wallet
 
-💡 Smart Contract
+   Open the app in your browser.
+
+   Connect your Pera Wallet.
+
+   Start playing and earning!
+
+---
+
+##💡 Smart Contract
 
 The smart contract manages game logic and reward distribution securely on Algorand.
 All transactions (game actions, token transfers, NFT ownership) are handled via verified Algorand contracts.
 
-🌍 Vision
+---
+
+## 🌍 Vision
 
 AlgoVerse aims to build a community-driven gaming ecosystem where developers and players can contribute, create, and grow together in the decentralized gaming space.
 
-👩‍💻 Author
+---
+
+## 👩‍💻 Author
 
 Arasavilli Ratna Reethika
 📧 reethika.22.arasavilli@gmail.com
 
-🏆 Built For
+---
+
+## 🏆 Built For
 
 This project was developed as part of AlgoHack Bengaluru 2025.
