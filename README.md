@@ -1,45 +1,79 @@
-# Algoverse
+🎮 AlgoVerse — Web3 Gaming Platform
 
-This starter full stack project has been generated using AlgoKit. See below for default getting started instructions.
+AlgoVerse is a decentralized gaming platform built on the Algorand blockchain.
+It brings together multiple blockchain-based games where players can play, earn, and truly own their in-game assets through secure smart contracts and wallet integration.
 
-## Setup
+🚀 Overview
 
-### Initial setup
-1. Clone this repository to your local machine.
-2. Ensure [Docker](https://www.docker.com/) is installed and operational. Then, install `AlgoKit` following this [guide](https://github.com/algorandfoundation/algokit-cli#install).
-3. Run `algokit project bootstrap all` in the project directory. This command sets up your environment by installing necessary dependencies, setting up a Python virtual environment, and preparing your `.env` file.
-4. In the case of a smart contract project, execute `algokit generate env-file -a target_network localnet` from the `Algoverse-contracts` directory to create a `.env.localnet` file with default configuration for `localnet`.
-5. To build your project, execute `algokit project run build`. This compiles your project and prepares it for running.
-6. For project-specific instructions, refer to the READMEs of the child projects:
-   - Smart Contracts: [Algoverse-contracts](projects/Algoverse-contracts/README.md)
-   - Frontend Application: [Algoverse-frontend](projects/Algoverse-frontend/README.md)
+Traditional gaming platforms often lack transparency and true ownership. AlgoVerse changes that by using Algorand’s high-speed, low-fee blockchain to deliver a new kind of gaming experience:
 
-> This project is structured as a monorepo, refer to the [documentation](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/features/project/run.md) to learn more about custom command orchestration via `algokit project run`.
+Players can earn rewards for participation.
 
-### Subsequently
+All in-game assets are NFT-based and owned by the player.
 
-1. If you update to the latest source code and there are new dependencies, you will need to run `algokit project bootstrap all` again.
-2. Follow step 3 above.
+Transactions are secure, transparent, and verifiable on-chain.
 
-## Tools
+✨ Key Features
 
-This project makes use of Python and React to build Algorand smart contracts and to provide a base project configuration to develop frontends for your Algorand dApps and interactions with smart contracts. The following tools are in use:
+🎯 Multiple Web3 Games — Enjoy a range of blockchain-powered mini-games.
 
-- Algorand, AlgoKit, and AlgoKit Utils
-- Python dependencies including Poetry, Black, Ruff or Flake8, mypy, pytest, and pip-audit
-- React and related dependencies including AlgoKit Utils, Tailwind CSS, daisyUI, use-wallet, npm, jest, playwright, Prettier, ESLint, and Github Actions workflows for build validation
+💰 Play-to-Earn System — Earn Algo or tokens as rewards.
 
-### VS Code
+🔐 Smart Contract Integration — Transparent game logic with Algorand smart contracts.
 
-It has also been configured to have a productive dev experience out of the box in [VS Code](https://code.visualstudio.com/), see the [backend .vscode](./backend/.vscode) and [frontend .vscode](./frontend/.vscode) folders for more details.
+👜 Pera Wallet Support — Seamless wallet connection for players.
 
-## Integrating with smart contracts and application clients
+🧠 Decentralized Architecture — All transactions and rewards are handled on-chain.
 
-Refer to the [Algoverse-contracts](projects/Algoverse-contracts/README.md) folder for overview of working with smart contracts, [projects/Algoverse-frontend](projects/Algoverse-frontend/README.md) for overview of the React project and the [projects/Algoverse-frontend/contracts](projects/Algoverse-frontend/src/contracts/README.md) folder for README on adding new smart contracts from backend as application clients on your frontend. The templates provided in these folders will help you get started.
-When you compile and generate smart contract artifacts, your frontend component will automatically generate typescript application clients from smart contract artifacts and move them to `frontend/src/contracts` folder, see [`generate:app-clients` in package.json](projects/Algoverse-frontend/package.json). Afterwards, you are free to import and use them in your frontend application.
+🌐 Web-based Interface — Built with React + Tailwind for a clean and responsive UI.
 
-The frontend starter also provides an example of interactions with your AlgoVerseClient in [`AppCalls.tsx`](projects/Algoverse-frontend/src/components/AppCalls.tsx) component by default.
+🛠️ Tech Stack
+Layer	Technologies
+Frontend	React, Vite, Tailwind CSS
+Blockchain	Algorand, PyTeal / Beaker Smart Contracts
+Wallet	Pera Wallet Integration
+Backend (if used)	Firebase / Node.js
+Deployment	Vercel / Netlify / GitHub Pages
+⚙️ Setup Instructions
 
-## Next Steps
+Clone the repository
 
-You can take this project and customize it to build your own decentralized applications on Algorand. Make sure to understand how to use AlgoKit and how to write smart contracts for Algorand before you start.
+git clone https://github.com/your-username/AlgoVerse.git
+cd AlgoVerse
+
+
+Install dependencies
+
+npm install
+
+
+Run locally
+
+npm run dev
+
+
+Connect Wallet
+
+Open the app in your browser.
+
+Connect your Pera Wallet.
+
+Start playing and earning!
+
+💡 Smart Contract
+
+The smart contract manages game logic and reward distribution securely on Algorand.
+All transactions (game actions, token transfers, NFT ownership) are handled via verified Algorand contracts.
+
+🌍 Vision
+
+AlgoVerse aims to build a community-driven gaming ecosystem where developers and players can contribute, create, and grow together in the decentralized gaming space.
+
+👩‍💻 Author
+
+Arasavilli Ratna Reethika
+📧 reethika.22.arasavilli@gmail.com
+
+🏆 Built For
+
+This project was developed as part of AlgoHack Bengaluru 2025.
