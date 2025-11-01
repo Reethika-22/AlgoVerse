@@ -92,3 +92,8 @@ Arasavilli Ratna Reethika
 ## 🏆 Built For
 
 This project was developed as part of AlgoHack Bengaluru 2025.
+
+---
+
+## License
+
