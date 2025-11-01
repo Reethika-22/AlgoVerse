@@ -85,7 +85,13 @@ AlgoVerse aims to build a community-driven gaming ecosystem where developers and
 ## 👩‍💻 Author
 
 Arasavilli Ratna Reethika
-📧 reethika.22.arasavilli@gmail.com
+Gmail: [reethika.22.arasavilli@gmail.com]
+
+Portfolio: [https://reethika-22.github.io/ratna_reethika_arasavilli_portfolio/]
+
+LinkedIn: [www.linkedin.com/in/reethika-arasavilli2216]
+
+GitHub: [https://github.com/Reethika-22]
 
 ---
 
