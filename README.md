@@ -101,5 +101,5 @@ This project was developed as part of AlgoHack Bengaluru 2025.
 
 ---
 
-## License
-
+## 📄 License
+This project is licensed under the MIT License.
